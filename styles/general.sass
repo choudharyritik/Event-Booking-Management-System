@@ -1,0 +1,184 @@
+header
+  height: 150px
+  background: linear-gradient(305deg, rgb(198, 226, 132), transparent)
+  padding: 15px 20px
+
+  >div
+    width: 100%
+    max-width: 1250px
+    margin: auto
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+  .topNav
+    display: flex
+    justify-content: space-between
+    align-content: center
+
+ul
+  display: flex
+  text-decoration: none
+  list-style: none
+  gap: 15px
+  align-items: center
+
+li
+  font-weight: 600
+  font-size: 16px
+.account
+  height: 45px
+  width: 45px
+
+main
+  width: 100%
+  max-width: 1250px
+  margin: auto
+  padding: 0px 20px
+  min-height: 550px
+  padding-bottom: 80px
+
+.home_body
+  display: flex
+  flex-direction: column
+  gap: 50px
+  .image
+    width: 40%
+
+  .card
+    display: flex
+    flex-direction: row-reverse
+    gap: 30px
+    justify-content: center
+    align-content: center
+    align-items: center
+    &:nth-child(odd)
+      direction: rtl
+      text-align: -webkit-left
+    .content
+      width: 50%
+
+.about_us_list
+  display: flex
+  flex-direction: column
+
+.events_page
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  gap: 20px
+  width: 100%
+  justify-content: center
+  .card
+    position: relative
+    .Heading
+      position: absolute
+      width: 100%
+      top: 55%
+      text-align: center
+      font-size: 30px
+      color: white
+      text-transform: uppercase
+      text-shadow: 1px 1px 20px black
+
+.cat_events
+  width: 100%
+  .content
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 70px
+    width: 100%
+    justify-content: flex-start
+    .card
+      display: flex
+      flex-direction: column
+      background-color: ghostwhite
+      border: 2px solid black
+      border-radius: 10px
+      padding: 10px
+      width: 40%
+      height: unset
+      text-align: center
+      align-items: center
+      p
+        margin: 0px 0px
+        font-size: 18px
+      h4
+        margin: 0px 0px
+
+h2.Head
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif
+  margin: 20px 0px
+
+div.align
+  display: flex
+  gap: 40px
+div.description
+  background-color: ghostwhite
+  border: 2px solid black
+  border-radius: 10px
+  padding: 10px
+  text-align: center
+  width: 600px
+  height: auto
+h3.mar
+  margin: 0px
+
+div.ticketing
+  background-color: ghostwhite
+  border: 2px solid black
+  border-radius: 10px
+  padding: 10px
+  width: fit-content
+  height: fit-content
+  ul.design
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+li.buying
+  gap: 50px
+  display: flex
+
+.Buy
+  border-radius: 4px
+  background-color: #f4511e
+  border: none
+  color: #FFFFFF
+  text-align: center
+  padding: 6px 4px
+  width: 120px
+  transition: all 0.5s
+  cursor: pointer
+.Buy span
+  cursor: pointer
+  display: inline-block
+  position: relative
+  transition: 0.5s
+.Buy span:after
+  content: '\00bb'
+  position: absolute
+  opacity: 0
+  top: 0
+  right: -20px
+  transition: 0.5s
+.Buy:hover span
+  padding-right: 25px
+.Buy:hover span:after
+  opacity: 1
+  right: 0
+.page-heading
+  text-align: center
+  padding: 10px 200px
+  color: rgb(107 ,114 ,128 )
+  opacity: 1
+  display: flex
+  flex-direction: column
+  align-items: center
+  h1
+    font-size: 3rem
+    line-height: 1
+  p
+    font-size: 1.5rem
+    line-height: 2rem
+
